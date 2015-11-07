@@ -1,0 +1,29 @@
+{
+  "name": "jenkins-app",
+  "version": "0.0.1",
+  "description": "jenkins test app",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themoor88/jenkins-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themoor88/jenkins-app/issues"
+  },
+  "homepage": "https://github.com/themoor88/jenkins-app#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
